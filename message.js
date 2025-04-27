@@ -1,0 +1,1 @@
+export const CUSTOM_MESSAGE = `Hello ${profileName}, I trust you're doing well. I'm Naveen, an aspiring software engineer. I'm reaching out to inquire about potential job opportunities in your company. Your profile is inspiring, and I'm excited to bring my skills to your team. Can you share my resume with HR`;
