@@ -40,7 +40,7 @@ function setNoteValue(profileName) {
   console.log(noteTextarea);
   if (noteTextarea) {
       // Replace 'Your text goes here' with the desired note
-      noteTextarea.value = `Hello ${profileName},  I trust you're doing well. I'm Arvind, an aspiring software engineer. I'm reaching out to inquire about potential job/intern opportunities in your company. Your profile is inspiring, and I'm excited to bring my skills to your team.  Can you share my resume with HR`;
+      noteTextarea.value = `Hello ${profileName},  I trust you're doing well. I'm Naveen, an aspiring software engineer. I'm reaching out to inquire about potential job opportunities in your company. Your profile is inspiring, and I'm excited to bring my skills to your team. Can you share my resume with HR`;
   } else {
       // If the noteTextarea is not yet available, retry after a delay
       setTimeout(function() {
