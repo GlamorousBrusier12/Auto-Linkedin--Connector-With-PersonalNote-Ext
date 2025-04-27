@@ -1,3 +1,5 @@
+import { Message } from "./message";
+
 function setIntervalX(callback, delay, repetitions) {
     let x = 0;
     const intervalID = window.setInterval(function () {
@@ -115,7 +117,7 @@ function setNoteValue(profileName) {
 
     if (noteTextarea) {
         console.log("Found textarea, setting value");
-        noteTextarea.value = `Hello ${profileName}, I trust you're doing well. I'm Naveen, an aspiring `;
+        noteTextarea.value = CUSTOM_MESSAGE;
 
         noteTextarea.dispatchEvent(new Event('input', { bubbles: true }));
         noteTextarea.dispatchEvent(new Event('change', { bubbles: true }));
